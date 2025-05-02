@@ -32,7 +32,7 @@
 
 //  Language headers
 #include	<ctype.h>
-#include	<vcruntime_string.h>
+#include	<string.h>
 
 const void* memichr(const void* pHaystack, int Needle, size_t HayLen) {
 	char			LCN = tolower(Needle & 255);									//  Lower case needle

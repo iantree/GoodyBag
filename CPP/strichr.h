@@ -32,7 +32,7 @@
 
 //  Language headers
 #include	<ctype.h>
-#include	<vcruntime_string.h>
+#include	<string.h>
 
 const char* strichr(const char* pHaystack, int Needle) {
 	char			LCN = tolower(Needle & 255);									//  Lower case needle
