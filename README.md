@@ -12,4 +12,6 @@ of stristr.
 
 memichr -	Again simple providing a case-insensitive version of memchr.
 
+memdump -	A simple memory dumping function.
+
 More goodies to follow.
